@@ -21,13 +21,15 @@ body{
     height: 50px;
 }
 
-.header ul,li,a{
+.header ul,li, a{
     display: flex;
     gap: 25px;
     font-size: 18px;
     font-weight: 700;
     list-style-type: none;
     text-decoration: none;
+}
+.header a{
     color: white;
 }
 .header ul:hover{
@@ -60,6 +62,9 @@ body{
     border-radius: 7px;
     border: none;
     padding: 5px 20px;
+}
+.main a{
+    color: white;
 }
 #Section2{
     height: 80vh;
@@ -96,9 +101,43 @@ body{
 }
 #Section3{
     background-color: #E5E7EB;
-    height: 80vh;
+    padding: 0px 200px;
+    height: 60vh;
 }
 .news img{
     width: auto;
-    height: 300px;
+    height: 350px;
+    border-radius: 15px;
+}
+
+.header3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subtitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.title3{
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1f2937;
+}
+.news{
+    display: flex;
+    gap: 100px;
+}
+.subnews h3{
+    font-size: 28px;
+    text-decoration: underline;
+}
+.subnews p, a{
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    display: inline;
 }
