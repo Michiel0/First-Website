@@ -141,3 +141,42 @@ body{
     color: rgb(0, 0, 0);
     display: inline;
 }
+#Section4{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content4{
+    background-color: #528dec;
+    width: 1000px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    border: 5px solid #5890eb;
+    gap: 80px;
+    padding: 0 30px;
+    border-radius: 15px;
+}
+.text{
+    color: #ffffff;
+}
+.text p{
+    font-size: 18px
+}
+.text h2{
+    margin: 0;
+    font-weight: 900;
+    padding: 0;
+}
+.content4 button{
+    height: 35px;
+    width: 110px;
+    font-size: 18px;
+    font-weight: 800;
+    color: #ffffff;
+    background-color: #5890eb;
+    border: 2px solid white;
+    border-radius: 7px;
+}
